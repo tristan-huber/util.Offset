@@ -2,7 +2,7 @@
 
 # util.Offset
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
