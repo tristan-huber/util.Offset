@@ -61,6 +61,38 @@
       "y": 0.22400000000000003,
       "uniqueID": "id-66764",
       "name": "Offset"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.10611979166666666,
+      "y": 0.6342857142857142,
+      "uniqueID": "id-66775",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.17708333333333331,
+      "y": 0.6428571428571428,
+      "uniqueID": "id-66779",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -70,13 +102,18 @@
       "ap2ID": "id-66748"
     },
     {
-      "ap2Name": "shape",
-      "ap1ID": "id-66761",
+      "ap2Name": "offset",
+      "ap1ID": "id-66764",
       "ap2ID": "id-66750"
     },
     {
-      "ap2Name": "offset",
-      "ap1ID": "id-66764",
+      "ap2Name": "geometry",
+      "ap1ID": "id-66775",
+      "ap2ID": "id-66779"
+    },
+    {
+      "ap2Name": "shape",
+      "ap1ID": "id-66779",
       "ap2ID": "id-66750"
     }
   ],
